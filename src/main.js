@@ -4,13 +4,8 @@ import 'element-ui/lib/theme-chalk/index.css'
 import element from './element/index'
 
 Vue.use(element)
-// import ElementUI from 'element-ui';
-
-// Vue.use(ElementUI)
 
 import store from './Vuex/index';
-
-// import localStorage from "@/method/localStorage";
 
 import storage from "@/method/localStorage";
 Vue.prototype.$storage = storage;
